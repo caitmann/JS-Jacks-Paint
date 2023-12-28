@@ -40,55 +40,55 @@ function getProductInfo(paintColor) {
             updatePrice(colorName, price)    
             break;           
         case 'pn2':
-            price - 11.14
+            price = 11.14
             colorName = 'Medium Brown'
             updatePrice(colorName, price)    
             break;            
         case 'pn3':
-            price - 22.99
+            price = 22.99
             colorName = 'Royal Blue'
             updatePrice(colorName, price) 
             break;   
         case 'pn4':
-            price - 4.99
+            price = 4.99
             colorName = 'Solid Black'
             updatePrice(colorName, price)
             break;   
         case 'pn5':
-            price - 8.22
+            price = 8.22
             colorName = 'Solid Cyan'
             updatePrice(colorName, price)      
             break;   
         case 'pn6':
-            /price - 11.99
+            price = 11.99
             colorName = 'Solid Purple'
             updatePrice(colorName, price)       
             break;   
         case 'pn7':
-            price - 13.42
+            price = 13.42
             colorName = 'Solid Red'
             updatePrice(colorName, price)
             break;   
         case 'pn8':
-            price - 21.98
+            price = 21.98
             colorName = 'Solid White'
             updatePrice(colorName, price) 
             break;   
         case 'pn9':
-            price - 14.99
+            price = 14.99
             colorName = 'Solid Yellow'
             updatePrice(colorName, price)
             break;   
-          default:              
+        default:              
     }
 
     function updatePrice(colorName, price)
     {       
         let colorPrice = getElementById('color-price');
-        colorPrice.textContent=price;
+            colorPrice.textContent = price;
         
         let color = getElementById('color-name');
-        color.textContent=colorName;
+            color.textContent = colorName;
     }
     
 }
